@@ -42,19 +42,6 @@ Make sure you have [Node.js](https://nodejs.org/) and a package manager like `np
     ```
 
 The application will be available at `http://localhost:5173`.
-
-## 🛠️ Summary of Work Done
-
-This project was refined and debugged to enhance its functionality and user experience. Key contributions include:
-
--   **Comprehensive Debugging:** Identified and fixed critical data handling issues across all 10 invoice templates, resolving persistent `NaN` (Not a Number) errors.
--   **Data-Model Refactoring:** Updated all templates to use `item.rate` instead of `item.amount` for price calculations, ensuring consistency and accuracy.
--   **Robust Calculations:** Implemented reliable logic to automatically calculate subtotals, taxes, and grand totals, with proper fallbacks to prevent errors.
--   **UI/UX Enhancements:**
-    -   Corrected layout issues, including removing an obstructive outer container to prevent text from being cut off.
-    -   Improved the display of item names and descriptions with appropriate fallbacks for missing data.
--   **Version Control Setup:** Initialized a Git repository and prepared the project for versioning and collaboration on GitHub.
-
 ## 💻 Tech Stack
 
 -   [React](https://reactjs.org/)
@@ -67,14 +54,6 @@ This project was refined and debugged to enhance its functionality and user expe
 **URL**: https://run.gptengineer.app/projects/1340b42f-5412-43e0-b239-b5fdabd2feb7/improve
 
 ## How can I edit this code?
-
-There are several ways of editing your application.
-
-**Use GPT Engineer**
-
-Simply visit the GPT Engineer project at [GPT Engineer](https://gptengineer.app/projects/1340b42f-5412-43e0-b239-b5fdabd2feb7/improve) and start prompting.
-
-Changes made via gptengineer.app will be committed automatically to this repo.
 
 **Use your preferred IDE**
 
@@ -121,12 +100,3 @@ This project is built with .
 - shadcn-ui
 - Tailwind CSS
 
-## How can I deploy this project?
-
-All GPT Engineer projects can be deployed directly via the GPT Engineer app.
-
-Simply visit your project at [GPT Engineer](https://gptengineer.app/projects/1340b42f-5412-43e0-b239-b5fdabd2feb7/improve) and click on Share -> Publish.
-
-## I want to use a custom domain - is that possible?
-
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.gptengineer.app/tips-tricks/custom-domain/)
